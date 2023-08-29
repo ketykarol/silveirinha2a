@@ -11,6 +11,7 @@
         <header>
             <div class="caixa">
                 <h1><img src="logo.png"></h1>
+
                 <nav>
                     <ul>
                         <li><a href="index.html">Home</a></li>
@@ -20,25 +21,31 @@
                 </nav>
             </div>
         </header>
+main {
+    width: 940px;
+    margin: 0 auto;
+}
 
-        <main>
-<form>
-        <label for="nomesobrenome">Nome e sobrenome</label>
-        <input type="text" id="nomesobrenome">
+form {
+    margin: 40px 0;
+}
 
-        <label for="email">Email</label>
-        <input type="text" id="email">
+form label {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
 
-        <label for="telefone">Telefone</label>
-        <input type="text" id="telefone">
-
-        
-        <textare cols="30" rows="10"></textare>
-
-        <input type="submit" value="enviar formulario">
-</form>
-        </main>
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
 
         <footer>
-           <img src="logo-branco.png">
-           <p class="copyright"&copy; Copyright Barbearia Alura>
+            <img src="logo-branco.png">
+            <p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
+        </footer>
+    </body>
+</html>
